@@ -1,0 +1,39 @@
+name: cupid_knot_sample
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  auth_buttons: ^1.0.1+3
+  cloud_firestore: ^2.2.0
+  cupertino_icons: ^1.0.2
+  dots_indicator: ^2.0.0
+  firebase_auth: ^1.2.0
+  firebase_core: ^1.2.0
+  google_fonts: ^2.1.0
+  google_sign_in: ^5.0.4
+  image_picker: ^0.7.5+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+  very_good_analysis: ^2.0.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - "assets/01 Splas Screen/"
+    - "assets/02 Connect with google/"
+    - "assets/03 Create Account/"
+    - "assets/04 Create Account_2/"
+    - "assets/05 Account Privacy/"
+    - "assets/06 Successfully/"
